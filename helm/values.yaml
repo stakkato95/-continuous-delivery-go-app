@@ -1,0 +1,6 @@
+global:
+  postgresql:
+    auth:
+      username: root
+      password: root
+      database: test
