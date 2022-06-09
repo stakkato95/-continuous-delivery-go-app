@@ -1,9 +1,0 @@
-dependencies:
-- name: continuous-delivery
-  repository: https://stakkato95.github.io/continuous-delivery-go-helm
-  version: 0.1.2
-- name: postgresql
-  repository: https://charts.bitnami.com/bitnami
-  version: 11.6.5
-digest: sha256:3a61607f9451c0d2712706009016a14c23dd7caba6707bca742ff974f88530d1
-generated: "2022-06-09T21:54:00.7442735+02:00"
