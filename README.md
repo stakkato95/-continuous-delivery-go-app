@@ -1,2 +1,2 @@
-# -continuous-delivery-go-app
+# continuous-delivery-go-app
 Helm app with dependency
