@@ -4,3 +4,6 @@ global:
       username: root
       password: root
       database: test
+
+  postgres_service:
+    name: continuous-delivery-go-app-postgresql
