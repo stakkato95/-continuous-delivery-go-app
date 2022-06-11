@@ -1,1 +1,1 @@
-helm uninstall continuous-delivery-go-app -n test
+helm uninstall continuous-delivery-go-app -n default
