@@ -2,6 +2,20 @@ apiVersion: v1
 entries:
   continuous-delivery-app:
   - apiVersion: v2
+    created: "2022-06-11T13:21:05.757940535Z"
+    dependencies:
+    - name: continuous-delivery
+      repository: https://stakkato95.github.io/continuous-delivery-go-helm-plus
+      version: 0.1.9
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.6.5
+    digest: 188d7362614e5b8d85bc54655bae5b185f2a97fe7fdce0b6224016bab062dd6a
+    name: continuous-delivery-app
+    urls:
+    - https://github.com/stakkato95/continuous-delivery-go-app/releases/download/continuous-delivery-app-0.1.15/continuous-delivery-app-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
     created: "2022-06-11T11:53:48.849493459Z"
     dependencies:
     - name: continuous-delivery
@@ -197,4 +211,4 @@ entries:
     urls:
     - https://github.com/stakkato95/continuous-delivery-go-app/releases/download/continuous-delivery-app-0.1.0/continuous-delivery-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-11T11:53:48.84984135Z"
+generated: "2022-06-11T13:21:05.758236838Z"
